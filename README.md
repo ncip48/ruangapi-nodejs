@@ -27,7 +27,7 @@ RuangAPI memiliki beberapa endpoint yaitu ongkir, search engine, marketplace, wi
 
 ### Ongkir
 
-```
+```javascript
 var RuangApi = require("ruangapi-nodejs").Ongkir('apikey');
 
 RuangAPI.getProvinces().then((res) => {
