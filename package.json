@@ -1,0 +1,38 @@
+{
+  "name": "ruangapi-nodejs",
+  "version": "0.1.1",
+  "description": "Un-Official RuangAPI Library for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncip48/ruangapi-nodejs.git"
+  },
+  "keywords": [
+    "ruangapi",
+    "api",
+    "nodejs",
+    "ongkir",
+    "marketplace"
+  ],
+  "author": "Herly Chahya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncip48/ruangapi-nodejs/issues"
+  },
+  "homepage": "https://github.com/ncip48/ruangapi-nodejs#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "promise": "^8.1.0",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
